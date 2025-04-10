@@ -65,7 +65,7 @@ It also reflects how attackers gather information — and how defenders can spot
 ## 🔗 Connect With Me
 
 📍 Mohith Vasamsetti  
-📬 [LinkedIn](https://www.linkedin.com/in/mohithvasamsetti5666)  
+📬 [LinkedIn](https://www.linkedin.com/in/mvasamsetti)  
 🧠 Currently preparing for **CompTIA Security+**
 
 ---
