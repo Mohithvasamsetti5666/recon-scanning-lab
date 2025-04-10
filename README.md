@@ -50,6 +50,8 @@
 > ![Nmap Scan](screenshots/nmap_scan_result.png)
 >  
 > ![Harvester](screenshots/tesla_harvest.png)
+>
+> ![Harvester](screenshots/harvester_result_terminal.png)
 
 ---
 
