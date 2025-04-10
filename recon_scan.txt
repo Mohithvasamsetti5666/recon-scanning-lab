@@ -1,0 +1,33 @@
+# Nmap 7.95 scan initiated Thu Apr 10 12:48:22 2025 as: /usr/lib/nmap/nmap --privileged -sS -T4 -A -v -oN recon_scan.txt 10.0.2.15
+Nmap scan report for 10.0.2.15
+Host is up (0.000070s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.9p2 Debian 1 (protocol 2.0)
+| ssh-hostkey: 
+|   256 e8:a7:eb:df:a4:47:88:a2:1c:6a:38:83:f0:51:d9:ad (ECDSA)
+|_  256 8b:d8:8a:a4:4f:c8:81:e6:2b:0a:22:e7:9c:13:0c:24 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.63 ((Debian))
+|_http-title: Apache2 Debian Default Page: It works
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.63 (Debian)
+9876/tcp open  http    Apache httpd 2.4.63 ((Debian))
+|_http-favicon: Unknown favicon MD5: EA24A6F422094D610A1036137D4766DA
+|_http-title: Xplico ..:Users:..
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.63 (Debian)
+Device type: general purpose
+Running: Linux 5.X|6.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 5.0 - 6.2
+Uptime guess: 10.104 days (since Mon Mar 31 10:18:34 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 10 12:48:36 2025 -- 1 IP address (1 host up) scanned in 13.83 seconds
